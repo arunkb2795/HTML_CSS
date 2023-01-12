@@ -12,6 +12,7 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <title>Omnifood</title>
 </head>
 
@@ -29,6 +30,10 @@
                 <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
             </ul>
         </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
     </header>
     <main>
         <section class="section-hero">
@@ -220,31 +225,31 @@
             <div class="container all-recipes">
                 <a href="#" class="link">See all recipes &rarr;</a>
             </div>
-            </section>
-            <section class="section-testimonials">
-                <div class="testimonial-container">
-                    <span class="subheading ">Testimonials</span>
-                    <h2 class="heading-secondary">Once you try it,you can't go back</h2>
-                    <div class="testimonials">
-                        <figure class="testimonial">
-                            <img class="testimonial-img" src="assets/customers/dave.jpg" alt="photo of customer Dave Bryson" />
-                            <blockquote class="testimonial-text">
-                                Inexpensive, healthy and great-tasting meals, without even having to order manually! It
-                                feels
-                                truly
-                                magical.
-                            </blockquote>
-                            <p class="testimonial-name">&mdash; Dave Bryson</p>
+        </section>
+        <section class="section-testimonials">
+            <div class="testimonial-container">
+                <span class="subheading ">Testimonials</span>
+                <h2 class="heading-secondary">Once you try it,you can't go back</h2>
+                <div class="testimonials">
+                    <figure class="testimonial">
+                        <img class="testimonial-img" src="assets/customers/dave.jpg" alt="photo of customer Dave Bryson" />
+                        <blockquote class="testimonial-text">
+                            Inexpensive, healthy and great-tasting meals, without even having to order manually! It
+                            feels
+                            truly
+                            magical.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Dave Bryson</p>
                         </figure>
                         <figure class="testimonial">
-                            <img class="testimonial-img" src="assets/customers/ben.jpg" alt="photo of customer Ben Hadley" />
-                            <blockquote class="testimonial-text">
-                                The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing
-                                not
-                                to worry about food
-                                anymore!
-                            </blockquote>
-                            <p class="testimonial-name">&mdash; Ben Hadley</p>
+                        <img class="testimonial-img" src="assets/customers/ben.jpg" alt="photo of customer Ben Hadley" />
+                        <blockquote class="testimonial-text">
+                            The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing
+                            not
+                            to worry about food
+                            anymore!
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Ben Hadley</p>
                         </figure>
                         <figure class="testimonial">
                             <img class="testimonial-img" src="assets/customers/steve.jpg" alt="photo of customer Steve" />
@@ -257,14 +262,14 @@
                             <p class="testimonial-name">&mdash; Steve Miller</p>
                         </figure>
                         <figure class="testimonial">
-                            <img class="testimonial-img" src="assets/customers/hannah.jpg" alt="photo of customer Hannah Smith" />
-                            <blockquote class="testimonial-text">
-                                I got Omnifood for the whole family, and it frees up so much time! Plus, everything is
-                                organic
-                                and vegan and without
-                                plastic.
-                            </blockquote>
-                            <p class="testimonial-name">&mdash; Hannah Smith</p>
+                        <img class="testimonial-img" src="assets/customers/hannah.jpg" alt="photo of customer Hannah Smith" />
+                        <blockquote class="testimonial-text">
+                            I got Omnifood for the whole family, and it frees up so much time! Plus, everything is
+                            organic
+                            and vegan and without
+                            plastic.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Hannah Smith</p>
                         </figure>
                         </div>
                         </div>
@@ -316,7 +321,7 @@
             <div class="container grid grid--2-cols margin-bottom-md">
                 <div class="pricing-plan pricing-plan--starter ">
                     <header class="plan-header">
-            
+
                         <p class="plan-name">Starter</p>
                         <p class="plan-price"><span>$</span>399</p>
                         <p class="plan-text">per month.That's just $13 per meal!</p>
@@ -385,7 +390,7 @@
                     </p>
                     <p class="feature-text">
                         Our cooks only use local, fresh, and organic products to prepare your meals.
-                
+
                     </p>
                 </div>
                 <div class="feature">
@@ -402,46 +407,46 @@
                     </p>
                     <p class="feature-text">
                         Going on vacation? Just pause your subscription, and we refund unused days.
-                
+
                     </p>
                 </div>
-                </div>
-                </section>
-                
-                <section class="section-cta">
-                    <div class="container ">
-                        <div class="cta">
-                            <div class="cta-text-box">
-                                <h2 class="heading-secondary">Get your first meal for free!</h2>
-                                <p class="cta-text">
-                                    Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can
-                                    cancel or pause anytime. And the first meal is on us!
-                                </p>
-                                <form class="cta-form" action="#">
-                                    <div>
-                                        <label for="full-name">Full Name</label>
-                                        <input id="full-name" type="text" placeholder="John Smith" required />
-                                    </div>
-                                    <div>
-                                        <label for="email">Email Address</label>
-                                        <input id="email" type="email" required placeholder="me@example.com" />
-                                    </div>
-                                    <div>
-                                        <label id="select-where">Where did you hear from us ?</label>
-                                        <select id="select-where" required>
-                                            <option value="">Please choose one option : </option>
-                                            <option value="friends">Friends and family</option>
-                                            <option value="youtube">Youtube</option>
-                                            <option value="podcast">Podcast</option>
-                                            <option value="facebook">Facebook</option>
-                                            <option value="others">Others</option>
-                                        </select>
-                                    </div>
-                                    <button class="btn btn--form">Sign up now</button>
-                                </form>
-                            </div>
-                            <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+            </div>
+            </section>
+            
+            <section class="section-cta">
+                <div class="container ">
+                    <div class="cta">
+                        <div class="cta-text-box">
+                            <h2 class="heading-secondary">Get your first meal for free!</h2>
+                            <p class="cta-text">
+                                Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can
+                                cancel or pause anytime. And the first meal is on us!
+                            </p>
+                            <form class="cta-form" action="#">
+                                <div>
+                                    <label for="full-name">Full Name</label>
+                                    <input id="full-name" type="text" placeholder="John Smith" required />
+                                </div>
+                                <div>
+                                    <label for="email">Email Address</label>
+                                    <input id="email" type="email" required placeholder="me@example.com" />
+                                </div>
+                                <div>
+                                    <label id="select-where">Where did you hear from us ?</label>
+                                    <select id="select-where" required>
+                                        <option value="">Please choose one option : </option>
+                                        <option value="friends">Friends and family</option>
+                                        <option value="youtube">Youtube</option>
+                                        <option value="podcast">Podcast</option>
+                                        <option value="facebook">Facebook</option>
+                                        <option value="others">Others</option>
+                                    </select>
+                                </div>
+                                <button class="btn btn--form">Sign up now</button>
+                            </form>
                         </div>
+                        <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+                    </div>
             </div>
         </section>
     </main>
@@ -472,7 +477,7 @@
                         <a class="footer-links" href="mailto:hello@omnifood.com">hello@omnifood.com</a>
                     </p>
                 </address>
-    
+
             </div>
             <nav class="nav-col">
                 <p class="footer-heading">Account</p>
@@ -484,7 +489,7 @@
                     <li><a class="footer-links" href="#">Android app</a></li>
                 </ul>
             </nav>
-    
+
             <nav class="nav-col">
                 <p class="footer-heading">Company</p>
                 <ul class="footer-nav">
@@ -495,13 +500,13 @@
                     <li><a class="footer-links" href="#">Careers</a></li>
                 </ul>
             </nav>
-    
+
             <nav class="nav-col">
                 <p class="footer-heading">Resources</p>
                 <ul class="footer-nav">
                     <li><a class="footer-links" href="#">
                             Recipe directory
-    
+
                         </a></li>
                     <li><a class="footer-links" href="#">Help center
                         </a></li>
